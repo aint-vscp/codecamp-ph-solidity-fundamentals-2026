@@ -16,11 +16,16 @@ contract TokenTransfer {
     function mint(address to, uint256 amount) public {
         // require only owner
         // balances[to] += amount;
+
+        require(msg.sender == owner, "Only owner");
+        balances[to] += amount;
     }
 
     // TODO 4: Write a standard transfer function
     // Check sufficient balance → deduct from sender → add to receiver
     function transfer(address to, uint256 amount) public {
-        // code here
+        require(balances[owner] > amount, "Insufficient balance");
+        balances[owner] -= amount;
+        balances[to] += amount;
     }
 }

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.20;  // Using exact version
+pragma solidity 0.8.30;  // Using exact version
 
 contract SimpleContract {
     uint public count;

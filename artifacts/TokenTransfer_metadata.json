@@ -100,18 +100,18 @@
 			"bytecodeHash": "ipfs"
 		},
 		"optimizer": {
-			"enabled": true,
+			"enabled": false,
 			"runs": 200
 		},
 		"remappings": []
 	},
 	"sources": {
 		"15-Exercises/02_TokenTransfer.sol": {
-			"keccak256": "0xc890c62041090a3552b15bfd61c8d8054618a80727d8f5c31b2c00ebe721958d",
+			"keccak256": "0xcf87d74195cf2f105ba0f82bace2380c065b37f3ec45acec0d7ca3f962480295",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dc7ee1b4251e8bdea9911d95e3cebf09e72cb3c0d253b987b263e6741d39643d",
-				"dweb:/ipfs/QmVMce575duJ8VdXpUB1kPVVNntNkWLwsybk75uEDBJDEH"
+				"bzz-raw://20a9ecc414b74c51e5c1b9c5895249bcc9e5e95ee97afadbf9cfca7dca48f99b",
+				"dweb:/ipfs/QmQWoipgyjRuBYPCJ8AmuieVoQbqBSGYwxJxJshawm7DqZ"
 			]
 		}
 	},
